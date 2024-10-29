@@ -1,0 +1,37 @@
+header{
+    max-width: 1200px;
+    background-color: #FFA500;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+header ul a li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 12px;
+
+}
+
+div{
+    flex-direction: column;
+    line-height: 30px;
+    padding: 10px;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(103, 255, 204);
+    transition: 0.3s all;
+}
+
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+        display: flex;
+    }
+}

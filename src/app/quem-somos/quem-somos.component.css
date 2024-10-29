@@ -1,0 +1,59 @@
+main{
+    margin-bottom: 15px;
+}
+
+h1{
+    margin-top: 15px;
+    text-align: center;
+}
+.img-text{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-top: 30px;
+    justify-content: space-around;
+    text-align: justify;
+}
+    
+.img-text img{
+    width: 400px;
+    height: 300px;
+}
+
+.img-text p{
+    width: 500px;
+    height: 200px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+article div{
+    flex-direction: column;
+    font-size: 15px;
+}
+
+article img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+article p{
+    height: 300px;
+    width: 300px;
+    text-align: justify;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+article h2{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
